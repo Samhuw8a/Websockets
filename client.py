@@ -8,7 +8,7 @@ async def hello(info):
         #  print(f"sent: {info}")
 
         response = await websocket.recv()
-        #  print(f"got {response}")
+        print(f"got {response}")
 
 
 while True:
